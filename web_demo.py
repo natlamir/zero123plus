@@ -102,4 +102,4 @@ with gr.Blocks() as demo:
     
 
 
-demo.launch(debug=False)
+demo.queue(max_size=20).launch()
