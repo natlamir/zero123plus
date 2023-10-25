@@ -1,3 +1,20 @@
+# Install
+```
+conda create --name zero123plus python=3.10
+conda activate zero123plus
+git clone https://github.com/natlamir/zero123plus.git
+cd zero123plus
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -r requirements.txt
+```
+
+# Run Gradio App
+```
+gradio web_demo.py
+```
+
+Original Readme:
+
 # Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model
 
 ![Teaser](resources/teaser-low.jpg)
