@@ -10,3 +10,4 @@ altair<5
 huggingface_hub
 git+https://github.com/facebookresearch/segment-anything.git
 gradio
+accelerate
